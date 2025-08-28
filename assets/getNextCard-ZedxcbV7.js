@@ -1,0 +1,1 @@
+import{c as e}from"./useCardStore-CrKPGiTU.js";function s(){const{cards:r}=e.getState(),t=Object.values(r).sort((o,a)=>a.forgetProbability-o.forgetProbability);return`${t[0].groupId}-${t[0].cardId}`}export{s as g};
